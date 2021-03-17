@@ -1,0 +1,6 @@
+---
+# handlers file for mylb
+- name : restart service
+  service :
+        name : "haproxy"
+        state : restarted

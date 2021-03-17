@@ -1,0 +1,4 @@
+---
+# vars file for myapache
+package : "httpd"
+package1 : "php"

@@ -1,0 +1,15 @@
+---
+# tasks file for myapache
+- package :
+        name : "{{ package }}"
+        state : present
+        name : "{{ package1 }}"
+        state : present
+- service :
+        name : "{{ package }}"
+        state : started
+- template :
+        dest : "/var/www/html"
+        src : index.php
+ 
+

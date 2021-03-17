@@ -1,0 +1,4 @@
+---
+# vars file for mylb
+package : "haproxy"
+port : "3900"

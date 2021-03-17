@@ -1,0 +1,8 @@
+---
+  - hosts : mylb
+    roles : 
+    - role : "mylb"
+  - hosts : target_15
+    roles : 
+    - role : "myapache"
+ 
